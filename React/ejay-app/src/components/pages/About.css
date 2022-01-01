@@ -1,0 +1,87 @@
+#about {
+    background: #262936;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+ }
+ 
+ #about a, #about a:visited  { color: #fff; }
+ #about a:hover, #about a:focus { color: #0762f9; }
+ 
+ #about h2 {
+    font-size: 40px;
+    color: #98a6ad;
+    margin-bottom: 12px;
+    font-family: 'Arial', sans-serif;
+ }
+
+ #about p {
+    line-height: 30px;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+ }
+ #about .profile-pic {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+ }
+ /* #about .interests { width: 58.33333%; } */
+ #about .interests { 
+    width: 50%;
+    padding-left: 10%;
+
+   }
+
+ #about .interests h3 {
+   font-size: 32px;
+   color: #98a6ad;
+   margin-bottom: 12px;
+   font-family: 'Arial', sans-serif;
+}
+
+/* #about .contacts { width: 41.66667%; } */
+#about .contacts { width: 40%; }
+
+#about .contacts h3 {
+  font-size: 32px;
+  color: #98a6ad;
+  margin-bottom: 12px;
+  font-family: 'Arial', sans-serif;
+}
+
+ #about .download {
+    width: 58.33333%;
+    padding-top: 6px;
+ }
+ #about .main-col { padding-right: 5%; }
+
+
+ #about .btn-download {
+   background-color: #fff;
+   margin-top: 2rem;
+   /* margin-left: 10px; */
+   /* text-align: center; */
+   /* margin-left: auto; */
+   /* margin-right: auto; */
+
+   color: #444;
+   padding: 8px 20px;
+   font-size: 26px;
+   transition: all 0.3s ease-out;
+   border: 1px solid #fff;
+ }
+
+ #about .btn-download:hover{
+   transition: all 0.3s ease-out;
+   /* background: #fff; */
+   background-color: #2B2B2B;
+   /* color: #242424; */
+   color: #fff;
+   transition: 250ms;
+ }
+
+
+
+ 

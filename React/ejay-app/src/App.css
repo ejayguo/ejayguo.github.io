@@ -5,40 +5,42 @@
     font-family: 'PT Sans', sans-serif;
   }
   
-  .home,
-  .education,
-  .project,
-  .resume {
+  .home
+  /* .introduction, */
+  /* .education, */
+  /* .project { */
+    {
     display: flex;
     height: 90vh;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
   }
+
+  /* .introduction {
+    background-image: url('../public/images/img-3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  } */
   
-  .education {
+  /* .education {
     background-image: url('../public/images/img-2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
-  }
+  } */
   
-  .project {
+  /* .project {
     background-image: url('../public/images/img-1.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
-  }
+  } */
   
-  .resume {
-    background-image: url('../public/images/img-8.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }

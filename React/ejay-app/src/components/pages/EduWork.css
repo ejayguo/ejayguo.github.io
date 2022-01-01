@@ -1,0 +1,78 @@
+/* ------------------------------------------------------------------ */
+/* d. Resume Section
+/* ------------------------------------------------------------------ */
+
+#eduwork {
+    background: #23252e;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+ }
+ 
+ #eduwork a, #eduwork a:visited  { color: #fff; }
+ #eduwork a:hover, #eduwork a:focus { color: #fff; }
+
+ #eduwork .school, .job{
+     padding-bottom: 3rem;
+ }
+ 
+ #eduwork h1 {
+    /* font: 18px/24px 'opensans-bold', sans-serif; */
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    color: #98a6ad;
+    font-size: 40px;
+    font-family: 'PT Sans', sans-serif;
+ }
+
+ #eduwork h1 span {
+    border-bottom: 3px solid #61dafb;
+    padding-bottom: 6px;
+    font-family: 'Arial', sans-serif;
+ }
+
+ #eduwork h3 {   
+    color: #fff;
+    font-size: 24px;
+    font-family: 'opensans-bold', sans-serif;
+ }
+ 
+ #eduwork .header-col { padding-top: 9px; }
+ #eduwork .main-col { padding-right: 10%; }
+ 
+ .education, .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+ }
+ #eduwork .info {
+    /* font: 16px/24px 'librebaskerville-italic', serif; */
+    color: #6E7881;
+    margin-bottom: 9px;
+    margin-top: 9px;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+ }
+ #eduwork .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+ }
+ #eduwork .desc {
+     color: #fff;
+     font-size: 18px;
+     font-family: 'Arial', sans-serif;
+ }
+ #eduwork .date {
+    /* font: 15px/24px 'opensans-regular', sans-serif; */
+    margin-top: 6px;
+
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+ }
+
+ #eduwork .logo-pic {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+ }

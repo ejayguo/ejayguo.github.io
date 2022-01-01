@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
+// import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+import Button from 'react-bootstrap/Button';
+
+// import { ResumeButton } from './ResumeButton';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 
+import PDF_RESUME from './Resume_EJay_Guo.pdf';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -27,51 +32,48 @@ function Navbar() {
 
   return (
     <>
+    
       <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+        <div>
+          <a href={PDF_RESUME} target='_blank' className='navbar-logo' onClick={closeMobileMenu}>
             Yijie (EJay) Guo
-            {/* <i class='fab fa-typo3' /> */}
-          </Link>
+            <Button id='btn-resume' buttonStyle='btn--outline'>
+              <a href={PDF_RESUME} target='_blank'></a>Resume
+            </Button>
+          </a>
+        </div>
+        <div className='navbar-container'>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
-              </Link>
+              <HashLink smooth to='#about' className='nav-links' onClick={closeMobileMenu}>
+                About Me
+              </HashLink>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/education'
+              <HashLink
+                smooth
+                to='#eduwork'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Educations
-              </Link>
+                Educations & Works
+              </HashLink>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/project'
+              <HashLink
+                smooth
+                to='#project'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Projects
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to='/resume'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Resume
-              </Link>
+              </HashLink>
             </li>
           </ul>
-          {button && <Button to_path='/resume' buttonStyle='btn--outline'>Resume</Button>}
+          
           
         </div>
       </nav>
