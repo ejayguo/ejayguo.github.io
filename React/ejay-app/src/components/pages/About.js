@@ -1,12 +1,14 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
-import PDF_RESUME from '../Resume_EJay_Guo.pdf';
+
 // import '../../App.css';
 // import Button from 'react-bootstrap/Button';
 
 import './Grid.css';
 import './About.css';
+
+import PDF_RESUME from '../Yijie(EJay)_Guo_Resume_v3.pdf';
 
 
 export default function About() {
@@ -24,10 +26,10 @@ export default function About() {
     const name = "EJay Guo"; //this.props.data.name;
     const profilepic = "logo512.png"; //"images/" + this.props.data.image;
     const bio = "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in. Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in."; //this.props.data.bio;
-    const street = "Bay"; //this.props.data.address.street;
-    const city = "SLC"; //this.props.data.address.city;
-    const state = "Utah"; //this.props.data.address.state;
-    const zip = "84102"; //this.props.data.address.zip;
+    // const street = "Bay"; //this.props.data.address.street;
+    // const city = "SLC"; //this.props.data.address.city;
+    // const state = "Utah"; //this.props.data.address.state;
+    // const zip = "84102"; //this.props.data.address.zip;
     const phone = "385-259-9327"; //this.props.data.phone;
     const email = "ejay.guo@gmail.com"; //this.props.data.email;
     

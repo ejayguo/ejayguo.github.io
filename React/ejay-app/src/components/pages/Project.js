@@ -9,6 +9,7 @@ import './Project.css';
 export default function Project() {
     var interval_carousel_craniorate = 3000;
     var interval_carousel_utm = 4000;
+    var interval_carousel_KB = 7000;
 
     return (
         
@@ -116,6 +117,37 @@ export default function Project() {
                         </Carousel.Item>
                         <Carousel.Item interval={interval_carousel_utm}>
                             <img className="d-block w-100" src="/images/utm4.png" alt="Four"/>
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
+            </div>
+
+            <div className="row item research">
+                <div className="eight columns">
+                    <div className="name">
+                        <h3>Probabilistic Knowledge Base & Object Detection</h3>
+                    </div>
+                    <div className="desc">
+                        <p className="info">TEST PROJECT DESCRIPTION</p>
+                    </div>
+                    <div className="tech">
+                        <h5>
+                            <span class="badge badge-dl">Deep Learning</span>
+                            <span class="badge badge-ml">Machine Learning</span>
+                            <span class="badge badge-cv">Computer Vision</span>
+                            <span class="badge badge-imgproc">Image Processing</span>
+                            <span class="badge badge-mlsec">Security</span>
+                            <span class="badge badge-python">Python</span>
+                        </h5>
+                    </div>
+                </div>
+                <div className="four columns">
+                    <Carousel className="carousel_KB">
+                        <Carousel.Item interval={interval_carousel_KB}>
+                            <img className="d-block w-100" src="/images/KB1.png" alt="One"/>
+                        </Carousel.Item>
+                        <Carousel.Item interval={interval_carousel_KB}>
+                            <img className="d-block w-100" src="/images/KB2.png" alt="Two"/>
                         </Carousel.Item>
                     </Carousel>
                 </div>

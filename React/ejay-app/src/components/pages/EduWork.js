@@ -6,20 +6,20 @@ import './EduWork.css';
 export default function EduWork() {
     // if (!this.props.data) return null;
 
-    const skillmessage = "SKILL MESSAGE";
+    // const skillmessage = "SKILL MESSAGE";
 
-    const education = function () {
-      return (
-        <div key="Shanghai University">
-          <h3>Bachelor of Economics</h3>
-          <p className="info">
-          Bachelor of Economics <span>&bull;</span>
-            <em className="date">May 2011</em>
-          </p>
-          <p>"TTTTEEEESSSSTTTT"</p>
-        </div>
-      );
-    };
+    // const education = function () {
+    //   return (
+    //     <div key="Shanghai University">
+    //       <h3>Bachelor of Economics</h3>
+    //       <p className="info">
+    //       Bachelor of Economics <span>&bull;</span>
+    //         <em className="date">May 2011</em>
+    //       </p>
+    //       <p>"TTTTEEEESSSSTTTT"</p>
+    //     </div>
+    //   );
+    // };
 
     // const education = this.props.data.education.map(function (education) {
     //   return (
@@ -75,7 +75,7 @@ export default function EduWork() {
 
                     <div className="nine columns main-col">
                         <div className="row item school">
-                            <div className="two columns"></div>
+                            {/* <div className="one columns"></div> */}
                             <div className="eight columns">
                                 <div key="University of Toronto">
                                     <h3>MSc in Applied Computing</h3>
@@ -84,13 +84,13 @@ export default function EduWork() {
                                     <p className="desc">The Vector Scholarship in Artificial Intelligence</p>
                                 </div>
                             </div>
-                            <div className="two columns">
-                                <img className="logo-pic" src="logo512.png" alt="logo utah"/>
+                            <div className="four columns div-logo">
+                                <img className="logo-uoft-vi" src="/images/logo-uoft-vi.png" alt="logo uoft"/>
                             </div>
                         </div>
 
                         <div className="row item school">
-                            <div className="two columns"></div>
+                            {/* <div className="one columns"></div> */}
                             <div className="eight columns">
                                 <div key="University of Utah">
                                     <h3>BSc in Computer Science</h3>
@@ -100,13 +100,13 @@ export default function EduWork() {
                                     <p className="desc">The Wilford and Dana Druk Scholarship</p>
                                 </div>
                             </div>
-                            <div className="two columns">
-                                <img className="logo-pic" src="logo512.png" alt="logo utah"/>
+                            <div className="four columns div-logo">
+                                <img className="logo-utah" src="/images/logo-utah.png" alt="logo utah"/>
                             </div>
                         </div>
 
                         <div className="row item school">
-                            <div className="two columns"></div>
+                            {/* <div className="one columns"></div> */}
                             <div className="eight columns">
                                 <div key="Shanghai University">
                                     <h3>BSc in Economics</h3>
@@ -114,12 +114,14 @@ export default function EduWork() {
                                     <p className="info">Sept 2007 - May 2011</p>
                                 </div>
                             </div>
-                            <div className="two columns">
-                                <img className="logo-pic" src="logo512.png" alt="logo utah"/>
+                            <div className="four columns div-logo">
+                                <img className="logo-shanghai" src="/images/logo-shanghai.png" alt="logo shanghai"/>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div className="row separator"></div>
 
                 <div className="row work">
                     <div className="three columns main-col">
@@ -130,7 +132,7 @@ export default function EduWork() {
 
                     <div className="nine columns main-col">
                         <div className="row item job">
-                            <div className="two columns"></div>
+                            {/* <div className="one columns"></div> */}
                             <div className="eight columns">
                                 <div key="Research Assistant">
                                     <h3>Research Assistant</h3>
@@ -139,13 +141,13 @@ export default function EduWork() {
                                     <p className="desc">TEST WORK DESCRIPTION</p>
                                 </div>
                             </div>
-                            <div className="two columns">
-                                <img className="logo-pic" src="logo512.png" alt="logo utah"/>
+                            <div className="four columns">
+                                <img className="logo-utah-sci" src="/images/logo-utah-sci.jpg" alt="logo utah-sci"/>
                             </div>
                         </div>
 
                         <div className="row item job">
-                            <div className="two columns"></div>
+                            {/* <div className="one columns"></div> */}
                             <div className="eight columns">
                                 <div key="Senior Software Engineer">
                                     <h3>Senior Software Engineer</h3>
@@ -154,8 +156,8 @@ export default function EduWork() {
                                     <p className="desc">TEST WORK DESCRIPTION</p>
                                 </div>
                             </div>
-                            <div className="two columns">
-                                <img className="logo-pic" src="logo512.png" alt="logo utah"/>
+                            <div className="four columns">
+                            <img className="logo-shanda" src="/images/logo-shanda.png" alt="logo shanda"/>
                             </div>
                         </div>
                     </div>

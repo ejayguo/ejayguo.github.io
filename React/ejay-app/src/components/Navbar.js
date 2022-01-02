@@ -5,9 +5,9 @@ import Button from 'react-bootstrap/Button';
 
 // import { ResumeButton } from './ResumeButton';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
-import PDF_RESUME from './Resume_EJay_Guo.pdf';
+import PDF_RESUME from './Yijie(EJay)_Guo_Resume_v3.pdf';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -49,7 +49,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <HashLink smooth to='#about' className='nav-links' onClick={closeMobileMenu}>
-                About Me
+                Home
               </HashLink>
             </li>
             <li className='nav-item'>
