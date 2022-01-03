@@ -93,13 +93,16 @@ export default function Project() {
                     <h5>
                         <span class="badge badge-dl">Deep Learning</span>
                         <span class="badge badge-ml">Machine Learning</span>
-                        <span class="badge badge-cv">Computer Vision</span>
+                        <span class="badge badge-cg">Computer Graphics</span>
                         <span class="badge badge-imgproc">Image Processing</span>
                         <span class="badge badge-vis">Visualization</span>
                         <span class="badge badge-web">Web</span>
+                        <span class="badge badge-html">HTML</span>
+                        <span class="badge badge-bootstrap">Bootstrap</span>
                         <span class="badge badge-aws">AWS</span>
                         <span class="badge badge-mlmed">Medical</span>
                         <span class="badge badge-python">Python</span>
+                        <span class="badge badge-typescript">Typescript</span>
                         <span class="badge badge-csharp">C#</span>
                     </h5>
                 </div>

@@ -42,67 +42,83 @@
  }
 
  #project .badge-dl {
-     background-color: #347bff;
+    background-color: #347bff;
  }
 
  #project .badge-ml {
-     background-color: #28a745;
+    background-color: #28a745;
  }
 
  #project .badge-opt {
-     background-color: darkred;
+    background-color: darkred;
  }
 
  #project .badge-krr {
-  background-color: darkslategray;
+    background-color: darkslategray;
  }
 
  #project .badge-cv {
-     background-color: #23a2b8;
+    background-color: #23a2b8;
+ }
+
+ #project .badge-cg {
+    background-color: purple; 
  }
 
  #project .badge-imgproc {
-     background-color: #fbc108;
+    background-color: #fbc108;
  }
 
  #project .badge-vis {
-     background-color: saddlebrown;
+    background-color: saddlebrown;
  }
 
  #project .badge-mlsec {
-     background-color: darkgray;
+    background-color: darkgray;
  }
 
  #project .badge-mlmed {
-     background-color: darkgray;
+    background-color: darkgray;
  }
 
  #project .badge-mlrob {
-     background-color: darkgray;
+    background-color: darkgray;
  }
 
  #project .badge-web {
-     background-color: #1f98f4;
+    background-color: #1f98f4;
+ }
+
+ #project .badge-html {
+    background-color: #d84c1f;
+ }
+
+ #project .badge-bootstrap {
+    background-color: #533b78;
  }
 
  #project .badge-aws {
-     background-color: orange;
+    background-color: orange;
  }
 
  #project .badge-python {
-     background-color: #306998;
+    background-color: #306998;
+ }
+
+ #project .badge-typescript{
+    background-color: #3178c6
  }
 
  #project .badge-csharp {
-     background-color: #9f76d7;
+    background-color: #9f76d7;
  }
 
  #project .badge-cpp {
-     background-color: #6295cb;
+    background-color: #6295cb;
  }
 
  #project .badge-matlab {
-  background-color: #df6437;
+    background-color: #df6437;
 }
 
  #project .demo-spark {
