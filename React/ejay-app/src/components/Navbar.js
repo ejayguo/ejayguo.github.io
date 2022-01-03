@@ -32,13 +32,12 @@ function Navbar() {
 
   return (
     <>
-    
       <nav className='navbar'>
         <div>
-          <a href={PDF_RESUME} target='_blank' className='navbar-logo' onClick={closeMobileMenu}>
+          <a href={PDF_RESUME} target='_blank' rel="noreferrer" className='navbar-logo' onClick={closeMobileMenu}>
             Yijie (EJay) Guo
             <Button id='btn-resume' buttonStyle='btn--outline'>
-              <a href={PDF_RESUME} target='_blank'></a>Resume
+              <a href={PDF_RESUME} target='_blank' rel="noreferrer"></a>Resume
             </Button>
           </a>
         </div>

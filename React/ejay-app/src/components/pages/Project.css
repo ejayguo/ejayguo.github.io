@@ -16,8 +16,8 @@
     font-size: 40px;
     font-family: 'PT Sans', sans-serif;
 
-    margin-bottom: 48px;
-    padding-bottom: 25px;
+    /* margin-bottom: 48px; */
+    /* padding-bottom: 25px; */
  }
 
  #project .research .name {
@@ -26,6 +26,14 @@
 
  #project .research .desc {
     color: #fff;
+    text-align: justify;
+
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+ }
+
+ #project .research .info {
+  font-family: 'Arial', sans-serif;
  }
 
  #project .tech .badge {
@@ -33,35 +41,69 @@
     margin-bottom: 10px;
  }
 
- #project .badge-dl
- {
+ #project .badge-dl {
      background-color: #347bff;
  }
 
- #project .badge-ml
- {
+ #project .badge-ml {
      background-color: #28a745;
  }
 
- #project .badge-cv
- {
+ #project .badge-opt {
+     background-color: darkred;
+ }
+
+ #project .badge-krr {
+  background-color: darkslategray;
+ }
+
+ #project .badge-cv {
      background-color: #23a2b8;
  }
 
- #project .badge-python
- {
-     background-color: yellowgreen;
- }
-
- #project .badge-imgproc
- {
+ #project .badge-imgproc {
      background-color: #fbc108;
  }
 
- #project .badge-mlsec
- {
+ #project .badge-vis {
+     background-color: saddlebrown;
+ }
+
+ #project .badge-mlsec {
      background-color: darkgray;
  }
+
+ #project .badge-mlmed {
+     background-color: darkgray;
+ }
+
+ #project .badge-mlrob {
+     background-color: darkgray;
+ }
+
+ #project .badge-web {
+     background-color: #1f98f4;
+ }
+
+ #project .badge-aws {
+     background-color: orange;
+ }
+
+ #project .badge-python {
+     background-color: #306998;
+ }
+
+ #project .badge-csharp {
+     background-color: #9f76d7;
+ }
+
+ #project .badge-cpp {
+     background-color: #6295cb;
+ }
+
+ #project .badge-matlab {
+  background-color: #df6437;
+}
 
  #project .demo-spark {
     position: relative;

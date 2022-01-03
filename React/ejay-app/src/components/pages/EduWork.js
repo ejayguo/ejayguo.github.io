@@ -138,7 +138,9 @@ export default function EduWork() {
                                     <h3>Research Assistant</h3>
                                     <p className="info">University of Utah</p>
                                     <p className="info">May 2018 - June 2020</p>
-                                    <p className="desc">TEST WORK DESCRIPTION</p>
+                                    <p className="desc">
+                                    I worked with a computer vision and knowledge representation & reasoning project, a deep learning anomaly detection medical project a UAV traffic management project. I worked all ends, from researching on machine learning algorithms to building automation systems and web applications.
+                                    </p>
                                 </div>
                             </div>
                             <div className="four columns">
@@ -153,7 +155,9 @@ export default function EduWork() {
                                     <h3>Senior Software Engineer</h3>
                                     <p className="info">Shanda Games: Immortal Studio</p>
                                     <p className="info">May 2013 - Apr 2015</p>
-                                    <p className="desc">TEST WORK DESCRIPTION</p>
+                                    <p className="desc">
+                                    I coded several key features of our game engine, including graphics, AI and physics engine. In addition, I implemented the character, AI, combat, skill, guild, player interaction systems on two mobile game clients.
+                                    </p>
                                 </div>
                             </div>
                             <div className="four columns">
