@@ -21,7 +21,7 @@ export default function Project() {
             <div className="row item research">
                 <div className="eight columns">
                     <div className="name">
-                        <h3>Training Data Reconstruction from Black-box Models</h3>
+                        <h3>Training Data Reconstruction/Stealing of Black-box Models</h3>
                     </div>
                     <div className="desc">
                         <p className="info">
@@ -36,6 +36,7 @@ export default function Project() {
                     <h5>
                         <span class="badge badge-dl">Deep Learning</span>
                         <span class="badge badge-ml">Machine Learning</span>
+                        <span class="badge badge-torch">PyTorch</span>
                         <span class="badge badge-cv">Computer Vision</span>
                         <span class="badge badge-imgproc">Image Processing</span>
                         <span class="badge badge-mlsec">ML Security</span>
@@ -93,6 +94,7 @@ export default function Project() {
                     <h5>
                         <span class="badge badge-dl">Deep Learning</span>
                         <span class="badge badge-ml">Machine Learning</span>
+                        <span class="badge badge-tf">TensorFlow</span>
                         <span class="badge badge-cg">Computer Graphics</span>
                         <span class="badge badge-imgproc">Image Processing</span>
                         <span class="badge badge-vis">Visualization</span>

@@ -49,6 +49,16 @@
     background-color: #28a745;
  }
 
+ #project .badge-torch {
+   background-color: #ee4c2c;
+}
+
+ #project .badge-tf {
+   background-color: #de582b;
+}
+
+
+
  #project .badge-opt {
     background-color: darkred;
  }

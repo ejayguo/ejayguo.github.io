@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 import './Navbar.css';
 // import { Link } from 'react-router-dom';
 
-import PDF_RESUME from './Yijie(EJay)_Guo_Resume_v3.pdf';
+import PDF_RESUME from './Yijie(EJay)_Guo_Resume_v4.pdf';
 
 function Navbar() {
   const [click, setClick] = useState(false);

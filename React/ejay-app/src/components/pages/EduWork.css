@@ -77,31 +77,33 @@
    width: 300px;
    background-color: #fff;
    border: 15px solid #fff;
-   border-radius: 10%;
+   border-radius: 5%;
 }
 
 #eduwork .logo-utah {
-   margin-left: 25px !important;
+   margin-left: 25px;
    width: 250px;
    background-color: #fff;
    border: 15px solid #fff;
-   border-radius: 10%;
+   border-radius: 5%;
 }
 
 #eduwork .logo-shanghai {
-   margin-left: 75px !important;
+   margin-left: 75px;
    width: 150px;
    height: 150px;
    background-color: #fff;
    border: 15px solid #fff;
-   border-radius: 10%;
+   border-radius: 5%;
 }
 
 #eduwork .logo-utah-sci {
-   width: 300px;
+   margin-left: 25px;
+   width: 250px;
    background-color: #fff;
-   border: 15px solid #fff;
-   border-radius: 10%;
+   border: 10px solid #fff;
+   border-radius: 5%;
+   
 }
 
 #eduwork .logo-shanda {
@@ -109,7 +111,7 @@
    width: 200px;
    background-color: #fff;
    border: 15px solid #fff;
-   border-radius: 10%;
+   border-radius: 5%;
 }
 
 #eduwork .separator {

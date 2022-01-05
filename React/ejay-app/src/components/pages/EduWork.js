@@ -139,12 +139,12 @@ export default function EduWork() {
                                     <p className="info">University of Utah</p>
                                     <p className="info">May 2018 - June 2020</p>
                                     <p className="desc">
-                                    I worked with a computer vision and knowledge representation & reasoning project, a deep learning anomaly detection medical project a UAV traffic management project. I worked all ends, from researching on machine learning algorithms to building automation systems and web applications.
+                                    I worked with a computer vision and knowledge representation & reasoning project, a deep learning anomaly detection medical project and a UAV traffic management project. I engaged on all ends, from researching in machine learning algorithms to building automation systems and web applications.
                                     </p>
                                 </div>
                             </div>
                             <div className="four columns">
-                                <img className="logo-utah-sci" src="/images/logo-utah-sci.jpg" alt="logo utah-sci"/>
+                                <img className="logo-utah-sci" src="/images/logo-utah-sci2.jpg" alt="logo utah-sci"/>
                             </div>
                         </div>
 
