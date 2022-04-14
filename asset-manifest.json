@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f2da83c.css",
-    "main.js": "/static/js/main.4451fc13.js",
+    "main.css": "/static/css/main.b480f253.css",
+    "main.js": "/static/js/main.d9184329.js",
     "static/media/Yijie(EJay)_Guo_Resume_v4.pdf": "/static/media/Yijie(EJay)_Guo_Resume_v4.10a2c4c3db52394d1f2f.pdf",
     "index.html": "/index.html",
-    "main.8f2da83c.css.map": "/static/css/main.8f2da83c.css.map",
-    "main.4451fc13.js.map": "/static/js/main.4451fc13.js.map"
+    "main.b480f253.css.map": "/static/css/main.b480f253.css.map",
+    "main.d9184329.js.map": "/static/js/main.d9184329.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f2da83c.css",
-    "static/js/main.4451fc13.js"
+    "static/css/main.b480f253.css",
+    "static/js/main.d9184329.js"
   ]
 }

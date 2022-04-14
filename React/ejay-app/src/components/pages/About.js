@@ -48,10 +48,13 @@ export default function About() {
             <div className="nine columns main-col">
               <h2>Yijie (EJay) Guo</h2>
               <p>
-              I am Yijie Guo. My friends call me EJay. I am currently a graduate student pursuing the Master of Science in Applied Computing (MScAC) degree at University of Toronto. I am passionate towards innovative AI technologies, because they are capable of modeling complex digital and natural world constructed by web and smart devices. Also, I am amazed by the Graph Convolutional Networks (GCN), because it could model the real world and human society by its nature, representing most of relations in the world as a sparse graph. Hopefully, I could figure out some interesting applications utilizing GCN in the future.
+              I am Yijie Guo. My friends call me EJay. I am currently a graduate student pursuing the Master of Science in Applied Computing (MScAC) degree at University of Toronto. I am passionate towards innovative AI technologies, because they are capable of modeling complex digital and natural world constructed by web and smart devices. Also, I am amazed by the Graph Convolutional Networks (GCN) and Neural Radiance Fields (NeRF). Hopefully, I could figure out some interesting GCN and NeRF projects in the future.
               </p>
               <p>
-              I am obsessed by Formula 1 due to its ultimate partnership between humans and machines as they push for optimizations together. BTW, the 2021 season was insane and congrats to Max Verstappen.
+              I love Formula 1 for its ultimate partnership between humans and machines as they push for optimizations together. BTW, the 2021 season was insane and congrats to Max Verstappen.
+              </p>
+              <p>
+              Charles and Ferrari for 2022!
               </p>
               <p>
               PS: I am not a fan of any social network and disable most of them. :)
